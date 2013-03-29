@@ -1,4 +1,0 @@
-enchant()
-
-window.Corbanur =
-  Units: {}
