@@ -1,6 +1,5 @@
 #= require vendor/jquery
-#= require vendor/rot
-#= require_tree ./models
+#= require vendor/modernizr
 #
 
 # put your game stuff here
@@ -8,8 +7,7 @@
 Game =
   display: null
   init: ->
-    @display = new ROT.Display()
-    $('body').append @display.getContainer()
+    console.log "Hello world"
 
 
 Game.init()
